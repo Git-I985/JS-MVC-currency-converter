@@ -6,17 +6,6 @@
 ('use strict');
 import './style.css';
 
-// ^((\d+\.\d+)|(\d+))$
-// function inputHandler(e) {
-//   if (!e.target.value) return;
-//   e.target.value = e.target.value
-//     .replaceAll(',', '.')
-//     .replaceAll(/[^0-9.]/gm, '')
-//     .replaceAll('.', (match, offset, str) =>
-//       offset > str.indexOf(match) ? '' : match
-//     );
-// }
-
 class ConverterModel {
   #quoteAmount = 0;
   #baseAmount = 0;
