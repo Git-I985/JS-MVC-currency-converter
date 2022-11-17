@@ -1,0 +1,15 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+input {
+  outline: none;
+  display: block;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+/* input:invalid {
+  border: 1px solid red;
+} */
